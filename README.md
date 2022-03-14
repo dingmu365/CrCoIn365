@@ -8,4 +8,5 @@ And it begins from 03.2022
 2. and then go through all the code practices one by one
 3. practicing with git merge, branches.
 4. then the first step is done.
+5. 11.03.2022 - chapter 1 array and string
 
