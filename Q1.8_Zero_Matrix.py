@@ -2,6 +2,8 @@
 # its entire row and column are set to 0
 import unittest
 from copy import deepcopy
+
+
 def zero_matrix(matrix):
     rows = set()
     columns = set()
@@ -35,14 +37,14 @@ def zero_matrix_pythonic(matrix):
 
 
 matrix = zero_matrix_pythonic([
-                                [1, 2, 3, 4, 0],
-                                [6, 0, 8, 9, 10],
-                                [11, 12, 13, 14, 15],
-                                [16, 0, 18, 19, 20],
-                                [21, 22, 23, 24, 25],])
+    [1, 2, 3, 4, 0],
+    [6, 0, 8, 9, 10],
+    [11, 12, 13, 14, 15],
+    [16, 0, 18, 19, 20],
+    [21, 22, 23, 24, 25], ])
+
 
 class Test(unittest.TestCase):
-
     test_cases = [
         (
             [
